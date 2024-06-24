@@ -10,6 +10,8 @@
 #define SEESAW_HW_ID 0x88
 #elif defined(ARDUINO_AVR_ATtiny1617)
 #define SEESAW_HW_ID 0x89
+#elif defined(ARDUINO_AVR_ATtiny3216)
+#define SEESAW_HW_ID 0x8A
 #else
 #error "Unsupported chip variant selected"
 #endif
